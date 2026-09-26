@@ -177,12 +177,12 @@ const products = [
   // ================== ALMACENAMIENTO ==================
   // ALMACENAMIENTO #1
   { id:22, name:"SSD SAMSUNG 9100 PRO 1TB", category:"almacenamiento", price:950, stock:1, featured:true, best:true,
-    sub:"M.2 NVMe PCIe 5.0 · 14,800 MB/s", image:"img/SSD_SAMSUNG_9100_PRO_1TB.webp",
+    sub:"M.2 NVMe PCIe 5.0 · 14,800 MB/s", image:"img/SSD/SSD_SAMSUNG_9100_PRO_1TB.webp",
     specs:{ "Capacidad":"1TB","Interfaz":"NVMe PCIe Gen 5.0","Factor Forma":"M.2 2280","Lectura":"14,800 MB/s","Escritura":"13,400 MB/s" } },
 
   // ALMACENAMIENTO #2
   { id:23, name:"SSD T-FORCE G50 4TB", category:"almacenamiento", price:2100, stock:1, featured:false, best:false,
-    sub:"M.2 NVMe PCIe 4.0 · 4TB", image:"img/SSD_T-FORCE_G50_4TB.webp",
+    sub:"M.2 NVMe PCIe 4.0 · 4TB", image:"img/SSD/SSD_T-FORCE_G50_4TB.webp",
     specs:{ "Capacidad":"4TB","Interfaz":"NVMe PCIe Gen 4.0","Factor Forma":"M.2 2280","Lectura":"5,000 MB/s","Escritura":"4,500 MB/s" } },
 
   // ================== FUENTE DE PODER · BRONZE ==================
@@ -194,18 +194,18 @@ const products = [
   // ================== REFRIGERACIÓN LÍQUIDA ==================
   // REFRIGERACIÓN LÍQUIDA #1
   { id:25, name:"COOLERMASTER ELITE 240MM", category:"refrigeracion-liquida", price:120, stock:3, featured:true, best:false,
-    sub:"Líquida AIO 240mm · Intel & AMD", image:"img/COOLERMASTER_ELITE_240MM.webp",
+    sub:"Líquida AIO 240mm · Intel & AMD", image:"img/REFRIGERACION/COOLERMASTER_ELITE_240MM.webp",
     specs:{ "Tipo":"Liquid Cooler AIO","Tamaño":"240mm","TDP":"Hasta 250W","Compatibilidad":"Intel & AMD","Garantía":"1 año" } },
 
   // REFRIGERACIÓN LÍQUIDA #2
   { id:26, name:"THERMALRIGHT ELITE VISION 360 ARGB WHITE", category:"refrigeracion-liquida", price:350, stock:1, featured:true, best:false, isNew:true,
-    sub:"Líquida AIO 360mm · ARGB Blanco", image:"img/THERMALRIGHT_ELITE_VISION_360_ARGB_WHITE.webp",
+    sub:"Líquida AIO 360mm · ARGB Blanco", image:"img/REFRIGERACION/THERMALRIGHT_ELITE_VISION_360_ARGB_WHITE.webp",
     specs:{ "Tipo":"Liquid Cooler AIO","Tamaño":"360mm","Ventiladores":"3x 120mm ARGB","Compatibilidad":"Intel & AMD","Color":"Blanco","Garantía":"1 año" } },
 
   // ================== REFRIGERACIÓN DE AIRE ==================
   // REFRIGERACIÓN AIRE #1
   { id:27, name:"THERMALRIGHT PEERLESS ASSASSIN 120 DIGITAL ARGB WHITE", category:"refrigeracion-aire", price:170, stock:2, featured:false, best:true,
-    sub:"Dual Tower · 245W · ARGB Blanco", image:"img/THERMALRIGHT_RGB.webp",
+    sub:"Dual Tower · 245W · ARGB Blanco", image:"img/REFRIGERACION/THERMALRIGHT_RGB.webp",
     specs:{ "Tipo":"Refrigeración por Aire Dual Tower","TDP":"245W","Ventiladores":"2x 120mm ARGB","Compatibilidad":"Intel LGA115X/1200/1700/1851 & AMD AM4/AM5","Color":"Blanco","Pantalla":"Digital CPU/GPU" } },
 
   // ================== TARJETAS GRÁFICAS ================== (placeholder: reemplaza precio/stock/foto por tu stock real)
@@ -255,9 +255,9 @@ const popularCategories = [
   { group:'gpu',            label:'Tarjetas Gráficas',img:'img/GRAFICAS/RTX_5060_8GB.webp' },
   { group:'placas',         label:'Placas Madre',     img:'img/PLACA/B850M-E_ASUS_TUF_WIFI.webp' },
   { group:'ram',            label:'Memorias RAM',     img:'img/RAM/TEAMGROUP_TFORCE_VULCAN_DDR5.webp' },
-  { group:'almacenamiento', label:'Almacenamiento',   img:'img/SSD_SAMSUNG_9100_PRO_1TB.webp' },
+  { group:'almacenamiento', label:'Almacenamiento',   img:'img/SSD/SSD_SAMSUNG_9100_PRO_1TB.webp' },
   { group:'fuente',         label:'Fuentes de Poder', img:'img/CORSAIR_CX750_750W.webp' },
-  { group:'refrigeracion',  label:'Refrigeración',    img:'img/COOLERMASTER_ELITE_240MM.webp' },
+  { group:'refrigeracion',  label:'Refrigeración',    img:'img/REFRIGERACION/COOLERMASTER_ELITE_240MM.webp' },
   { group:'gabinete',       label:'Gabinetes',        img:'img/GABINETE_ATX_MID_TOWER_ARGB.webp' }
 ];
 
