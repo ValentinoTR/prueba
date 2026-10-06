@@ -255,9 +255,9 @@ const popularCategories = [
   { group:'gpu',            label:'Tarjetas Gráficas',img:'img/GRAFICAS/RTX_5060_8GB.webp' },
   { group:'placas',         label:'Placas Madre',     img:'img/PLACA/B850M-E_ASUS_TUF_WIFI.webp' },
   { group:'ram',            label:'Memorias RAM',     img:'img/RAM/TEAMGROUP_TFORCE_VULCAN_DDR5.webp' },
-  { group:'almacenamiento', label:'Almacenamiento',   img:'img/SSD_SAMSUNG_9100_PRO_1TB.webp' },
+  { group:'almacenamiento', label:'Almacenamiento',   img:'img/SSD/SSD_SAMSUNG_9100_PRO_1TB.webp' },
   { group:'fuente',         label:'Fuentes de Poder', img:'img/CORSAIR_CX750_750W.webp' },
-  { group:'refrigeracion',  label:'Refrigeración',    img:'img/COOLERMASTER_ELITE_240MM.webp' },
+  { group:'refrigeracion',  label:'Refrigeración',    img:'img/REFRIGERACION/COOLERMASTER_ELITE_240MM.webp' },
   { group:'gabinete',       label:'Gabinetes',        img:'img/GABINETE_ATX_MID_TOWER_ARGB.webp' }
 ];
 
